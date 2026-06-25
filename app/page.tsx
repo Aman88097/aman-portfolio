@@ -81,6 +81,7 @@ export default function Home() {
           <a
             href="https://github.com/Aman88097"
             target="_blank"
+            rel="noopener noreferrer"
             className="border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
           >
             GitHub
@@ -89,16 +90,19 @@ export default function Home() {
           <a
             href="https://www.linkedin.com/in/aman-singh-02a13840a/"
             target="_blank"
+            rel="noopener noreferrer"
             className="bg-white text-black px-6 py-3 rounded-xl hover:scale-105 transition"
           >
             LinkedIn
           </a>
 
           <a
-            href="/AMAN_KUMAR_Resume.pdf"
+            href="/aman-resume.pdf"
+            download
+            target="_blank"
             className="border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
           >
-            Resume
+            Download Resume
           </a>
         </div>
       </section>
@@ -201,6 +205,7 @@ export default function Home() {
             <a
               href="https://github.com/Aman88097"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
             >
               GitHub
@@ -209,6 +214,7 @@ export default function Home() {
             <a
               href="https://www.linkedin.com/in/aman-singh-02a13840a/"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
             >
               LinkedIn
